@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_all_mails"
+            android:icon="@drawable/ic_all_mails"
+            android:title="All Mails" />
+        <item
+            android:id="@+id/nav_primary_mails"
+            android:icon="@drawable/ic_primary_mails"
+            android:title="Primary Mails" />
+        <item
+            android:id="@+id/nav_social_mails"
+            android:icon="@drawable/ic_social_mails"
+            android:title="Social Mails" />
+        <item
+            android:id="@+id/nav_job_mails"
+            android:icon="@drawable/ic_job_mails"
+            android:title="Job Mails" />
+        <item
+            android:id="@+id/nav_educational_mails"
+            android:icon="@drawable/ic_educational_mails"
+            android:title="Educational Mails" />
+        <item
+            android:id="@+id/nav_offer_mails"
+            android:icon="@drawable/ic_offer_mails"
+            android:title="Offer Mails" />
+        <item
+            android:id="@+id/nav_financial_mails"
+            android:icon="@drawable/ic_fianancial_mails"
+            android:title="Financial Mails" />
+    </group>
+
+    <item android:title="Preferences">
+        <menu>
+            <item
+                android:id="@+id/nav_settings"
+                android:icon="@drawable/ic_settings"
+                android:title="Settings" />
+            <item
+                android:id="@+id/nav_change_account"
+                android:icon="@drawable/ic_account_change"
+                android:title="Change Account" />
+        </menu>
+    </item>
+
+</menu>

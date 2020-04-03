@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "144130070112",
+    "firebase_url": "https://email-assistant.firebaseio.com",
+    "project_id": "email-assistant",
+    "storage_bucket": "email-assistant.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:144130070112:android:5891d3c0869c345c2b1505",
+        "android_client_info": {
+          "package_name": "com.cognition.android.mailboxapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "144130070112-ffed3d3mtbcbjf7cdf4rdfek6cg8kgk4.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.cognition.android.mailboxapp",
+            "certificate_hash": "c778b463d436f411fdd72ae9d04b20b39ee9bc65"
+          }
+        },
+        {
+          "client_id": "144130070112-cbis16d5n76697ba56883fkee7mo6nnm.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCGXlZxOb_Px2pSDWcBYv-iQ0TaKvSNQC0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "144130070112-cbis16d5n76697ba56883fkee7mo6nnm.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

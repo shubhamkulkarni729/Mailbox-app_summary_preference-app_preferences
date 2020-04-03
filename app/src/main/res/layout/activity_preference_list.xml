@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".activities.PreferenceListActivity">
+
+    <TextView
+        android:id="@+id/labelPreferenceList"
+        android:layout_width="322dp"
+        android:layout_height="100dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="69dp"
+        android:layout_marginEnd="73dp"
+        android:layout_marginBottom="562dp"
+        android:editable="false"
+        android:text="Please Select Your Class Preferences"
+        android:textSize="24sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <CheckBox
+        android:id="@+id/checkBoxPrimary"
+        android:layout_width="150dp"
+        android:layout_height="50dp"
+        android:layout_marginStart="50dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginEnd="211dp"
+        android:layout_marginBottom="1dp"
+        android:checked="true"
+        android:clickable="false"
+        android:editable="false"
+        android:text="Primary"
+        android:textSize="18sp"
+        app:layout_constraintBottom_toTopOf="@+id/checkBoxSocial"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/labelPreferenceList"
+        tools:text="Primary" />
+
+    <CheckBox
+        android:id="@+id/checkBoxSocial"
+        android:layout_width="150dp"
+        android:layout_height="50dp"
+        android:layout_marginStart="50dp"
+        android:layout_marginTop="1dp"
+        android:layout_marginEnd="211dp"
+        android:layout_marginBottom="432dp"
+        android:checked="false"
+        android:text="Social"
+        android:textSize="18sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/checkBoxPrimary" />
+
+    <CheckBox
+        android:id="@+id/checkBoxJobs"
+        android:layout_width="150dp"
+        android:layout_height="50dp"
+        android:layout_marginStart="50dp"
+        android:layout_marginTop="1dp"
+        android:layout_marginEnd="211dp"
+        android:layout_marginBottom="1dp"
+        android:text="Jobs"
+        android:textSize="18sp"
+        app:layout_constraintBottom_toTopOf="@+id/checkBoxEducational"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/checkBoxSocial" />
+
+    <CheckBox
+        android:id="@+id/checkBoxEducational"
+        android:layout_width="150dp"
+        android:layout_height="50dp"
+        android:layout_marginStart="50dp"
+        android:layout_marginTop="1dp"
+        android:layout_marginEnd="211dp"
+        android:layout_marginBottom="1dp"
+        android:text="Educational"
+        android:textSize="18sp"
+        app:layout_constraintBottom_toTopOf="@+id/checkBoxFinancial"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/checkBoxJobs" />
+
+    <CheckBox
+        android:id="@+id/checkBoxFinancial"
+        android:layout_width="150dp"
+        android:layout_height="50dp"
+        android:layout_marginStart="50dp"
+        android:layout_marginTop="1dp"
+        android:layout_marginEnd="211dp"
+        android:text="Financial"
+        android:textSize="18sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/checkBoxEducational" />
+
+    <CheckBox
+        android:id="@+id/checkBoxOffers"
+        android:layout_width="150dp"
+        android:layout_height="50dp"
+        android:layout_marginStart="50dp"
+        android:layout_marginTop="1dp"
+        android:layout_marginEnd="211dp"
+        android:layout_marginBottom="10dp"
+        android:text="Offers"
+        android:textSize="18sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/checkBoxFinancial"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <Button
+        android:id="@+id/btnSavePreferencesList"
+        android:layout_width="186dp"
+        android:layout_height="54dp"
+        android:layout_marginStart="108dp"
+        android:layout_marginTop="30dp"
+        android:layout_marginEnd="117dp"
+        android:layout_marginBottom="40dp"
+        android:text="Save"
+        android:textSize="18sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/checkBoxOffers" />
+
+</android.support.constraint.ConstraintLayout>

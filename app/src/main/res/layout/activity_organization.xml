@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".activities.OrganizationActivity">
+
+    <TextView
+        android:id="@+id/labelOrganization"
+        android:layout_width="253dp"
+        android:layout_height="57dp"
+        android:layout_marginStart="48dp"
+        android:layout_marginTop="100dp"
+        android:layout_marginEnd="184dp"
+        android:layout_marginBottom="553dp"
+        android:editable="false"
+        android:text="Organization Name"
+        android:textSize="24sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <EditText
+        android:id="@+id/textOrganizationName"
+        android:layout_width="385dp"
+        android:layout_height="67dp"
+        android:layout_marginStart="57dp"
+        android:layout_marginTop="34dp"
+        android:layout_marginEnd="56dp"
+        android:layout_marginBottom="469dp"
+        android:ems="10"
+        android:hint="Organization Name Appearing in Mail ID"
+        android:inputType="textPersonName"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/labelOrganization" />
+
+    <Button
+        android:id="@+id/btnSaveOrganization"
+        android:layout_width="164dp"
+        android:layout_height="56dp"
+        android:layout_marginStart="154dp"
+        android:layout_marginTop="73dp"
+        android:layout_marginEnd="154dp"
+        android:layout_marginBottom="344dp"
+        android:text="SAVE"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textOrganizationName" />
+</android.support.constraint.ConstraintLayout>
