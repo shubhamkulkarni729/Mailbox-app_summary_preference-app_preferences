@@ -10,6 +10,7 @@ import android.view.View;
 import android.widget.LinearLayout;
 import android.widget.TextView;
 
+import com.cognition.android.mailboxapp.activities.EventsActivity;
 import com.cognition.android.mailboxapp.activities.InboxActivity;
 import com.cognition.android.mailboxapp.activities.MainActivity;
 import com.google.api.client.extensions.android.http.AndroidHttp;
@@ -108,7 +109,7 @@ public class View_type extends AppCompatActivity {
         findViewById(R.id.button2).setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                startActivity(new Intent(View_type.this, InboxActivity.class));
+                startActivity(new Intent(View_type.this, activity_swipe.class));
                 ActivityCompat.finishAffinity(View_type.this);
             }
         });

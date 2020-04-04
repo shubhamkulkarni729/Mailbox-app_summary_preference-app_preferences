@@ -22,6 +22,7 @@ import android.widget.FrameLayout;
 import android.widget.Toast;
 
 import com.cognition.android.mailboxapp.Summary_Utils.Summary;
+import com.cognition.android.mailboxapp.activities.EventsActivity;
 import com.cognition.android.mailboxapp.activities.MainActivity;
 import com.cognition.android.mailboxapp.models.Message;
 import com.cognition.android.mailboxapp.utils.MessagesAdapter;
@@ -297,6 +298,16 @@ public class activity_swipe extends AppCompatActivity implements NavigationView.
             case R.id.nav_social_mails:
                 Toast.makeText(activity_swipe.this,"Pressed Social Mails",Toast.LENGTH_LONG).show();
                 break;
+
+            case R.id.nav_sms:
+                Toast.makeText(activity_swipe.this,"SMS Pressed",Toast.LENGTH_LONG).show();
+                break;
+
+            case R.id.nav_events:
+                Toast.makeText(activity_swipe.this,"Events Pressed",Toast.LENGTH_LONG).show();
+                startActivity(new Intent(activity_swipe.this, EventsActivity.class));
+                ActivityCompat.finishAffinity(activity_swipe.this);
+
         }
         return true;
     }

@@ -16,10 +16,12 @@
         android:largeHeap="true"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".activities.PreferenceListActivity"></activity>
+        <activity android:name=".activities.EventsActivity"></activity>
+        <activity android:name=".activities.PreferenceListActivity" />
         <activity android:name=".View_type" />
-        <activity android:name=".activity_swipe"
-            android:theme="@style/AppTheme.NoActionBar"/>
+        <activity
+            android:name=".activity_swipe"
+            android:theme="@style/AppTheme.NoActionBar" />
         <activity android:name=".activities.SummaryActivity" />
         <activity android:name=".activities.OrganizationActivity" />
         <activity
@@ -37,4 +39,5 @@
         <activity android:name=".activities.EmailActivity" />
         <activity android:name=".activities.ComposeActivity" />
     </application>
+
 </manifest>

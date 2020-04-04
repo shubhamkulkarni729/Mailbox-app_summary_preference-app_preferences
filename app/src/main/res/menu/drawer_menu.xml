@@ -32,6 +32,14 @@
             android:id="@+id/nav_financial_mails"
             android:icon="@drawable/ic_fianancial_mails"
             android:title="Financial Mails" />
+        <item
+            android:id="@+id/nav_sms"
+            android:icon="@drawable/ic_sms"
+            android:title="SMS" />
+        <item
+            android:id="@+id/nav_events"
+            android:icon="@drawable/ic_calendar"
+            android:title="Events" />
     </group>
 
     <item android:title="Preferences">

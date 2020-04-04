@@ -71,4 +71,7 @@ dependencies {
     implementation 'com.google.code.gson:gson:2.7'
     implementation 'com.android.support:multidex:1.0.3'
     implementation 'org.apache.opennlp:opennlp-tools:1.9.2'
+
+    //calendar
+    implementation 'com.github.sundeepk:compact-calendar-view:3.0.0'
 }
